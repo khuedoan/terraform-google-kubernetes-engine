@@ -6,6 +6,32 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Extending the adopted spec, each change should have a link to its corresponding pull request appended.
 
+## [24.0.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v23.3.0...v24.0.0) (2022-11-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* min tpb bump for location_policy
+* min TPG bump for location_policy (#1453)
+* add service_external_ips option (#1441)
+* Adding Support for Cost Allocation Feature in Beta (#1413)
+* add boot_disk_kms_key variable for node pools to GA modules (#1371)
+
+### Features
+
+* add boot_disk_kms_key variable for node pools to GA modules ([#1371](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1371)) ([d9a44c6](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/d9a44c60198e2bea72aa1f36c5dbe34e59416dbf))
+* add location_policy and fix permadiff ([#1452](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1452)) ([aecccf0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/aecccf0bb8ca950fab5598ce8ec4b91f45dcb4a9))
+* add service_external_ips option ([#1441](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1441)) ([e9de006](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/e9de006f535e67a311a01e60a554c636f127fafa))
+* Adding Support for Cost Allocation Feature in Beta ([#1413](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1413)) ([ba3dcd0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/ba3dcd0b617ff82367c5fbaffa5dc76e6f9f2cb1))
+* Make creation of istio-system namespace optional ([#1439](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1439)) ([335c62a](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/335c62a546f9b35b6825783e004c46f3d5f2440b))
+
+
+### Bug Fixes
+
+* location-policy permadrifting [#1445](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1445) ([aecccf0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/aecccf0bb8ca950fab5598ce8ec4b91f45dcb4a9))
+* min tpb bump for location_policy ([0ddd297](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/0ddd297a1d57cd4e58849e780d592147eac24321))
+* min TPG bump for location_policy ([#1453](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/issues/1453)) ([0ddd297](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/commit/0ddd297a1d57cd4e58849e780d592147eac24321))
+
 ## [23.3.0](https://github.com/terraform-google-modules/terraform-google-kubernetes-engine/compare/v23.2.0...v23.3.0) (2022-10-28)
 
 
